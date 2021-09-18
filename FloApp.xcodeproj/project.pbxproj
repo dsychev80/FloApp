@@ -13,6 +13,8 @@
 		842861EB26F5E3FB007F7F5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842861E926F5E3FB007F7F5C /* Main.storyboard */; };
 		842861ED26F5E408007F7F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842861EC26F5E408007F7F5C /* Assets.xcassets */; };
 		842861F026F5E408007F7F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842861EE26F5E408007F7F5C /* LaunchScreen.storyboard */; };
+		842861F926F5E46D007F7F5C /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842861F826F5E46D007F7F5C /* PushButton.swift */; };
+		8464EBD526F674BB0026DB77 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464EBD426F674BB0026DB77 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		842861EC26F5E408007F7F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842861EF26F5E408007F7F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842861F126F5E408007F7F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842861F826F5E46D007F7F5C /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		8464EBD426F674BB0026DB77 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				842861E326F5E3FB007F7F5C /* AppDelegate.swift */,
 				842861E526F5E3FB007F7F5C /* SceneDelegate.swift */,
 				842861E726F5E3FB007F7F5C /* ViewController.swift */,
+				842861F826F5E46D007F7F5C /* PushButton.swift */,
 				842861E926F5E3FB007F7F5C /* Main.storyboard */,
+				8464EBD426F674BB0026DB77 /* CounterView.swift */,
 				842861EC26F5E408007F7F5C /* Assets.xcassets */,
 				842861EE26F5E408007F7F5C /* LaunchScreen.storyboard */,
 				842861F126F5E408007F7F5C /* Info.plist */,
@@ -140,6 +146,8 @@
 				842861E826F5E3FB007F7F5C /* ViewController.swift in Sources */,
 				842861E426F5E3FB007F7F5C /* AppDelegate.swift in Sources */,
 				842861E626F5E3FB007F7F5C /* SceneDelegate.swift in Sources */,
+				842861F926F5E46D007F7F5C /* PushButton.swift in Sources */,
+				8464EBD526F674BB0026DB77 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
