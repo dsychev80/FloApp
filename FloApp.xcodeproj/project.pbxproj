@@ -16,6 +16,8 @@
 		842861F926F5E46D007F7F5C /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842861F826F5E46D007F7F5C /* PushButton.swift */; };
 		8464EBD526F674BB0026DB77 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464EBD426F674BB0026DB77 /* CounterView.swift */; };
 		84B9363E26F7DE5800B0DBC9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9363D26F7DE5800B0DBC9 /* GraphView.swift */; };
+		84EB3AFF26FCE17100F2695F /* mainScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EB3AFE26FCE17100F2695F /* mainScreen.png */; };
+		84EB3B0226FCE19000F2695F /* graphView.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EB3B0126FCE19000F2695F /* graphView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		842861F826F5E46D007F7F5C /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
 		8464EBD426F674BB0026DB77 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		84B9363D26F7DE5800B0DBC9 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		84EB3AFC26FCDF7700F2695F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84EB3AFE26FCE17100F2695F /* mainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainScreen.png; sourceTree = "<group>"; };
+		84EB3B0126FCE19000F2695F /* graphView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graphView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,8 @@
 		842861D726F5E3FB007F7F5C = {
 			isa = PBXGroup;
 			children = (
+				84EB3AFD26FCE15400F2695F /* images */,
+				84EB3AFC26FCDF7700F2695F /* README.md */,
 				842861E226F5E3FB007F7F5C /* FloApp */,
 				842861E126F5E3FB007F7F5C /* Products */,
 			);
@@ -74,6 +81,15 @@
 				842861F126F5E408007F7F5C /* Info.plist */,
 			);
 			path = FloApp;
+			sourceTree = "<group>";
+		};
+		84EB3AFD26FCE15400F2695F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84EB3AFE26FCE17100F2695F /* mainScreen.png */,
+				84EB3B0126FCE19000F2695F /* graphView.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				842861F026F5E408007F7F5C /* LaunchScreen.storyboard in Resources */,
+				84EB3B0226FCE19000F2695F /* graphView.png in Resources */,
 				842861ED26F5E408007F7F5C /* Assets.xcassets in Resources */,
+				84EB3AFF26FCE17100F2695F /* mainScreen.png in Resources */,
 				842861EB26F5E3FB007F7F5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
